@@ -1,0 +1,179 @@
+.aboutUs {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 35px;
+    margin-right: 50px;
+    margin-left: 50px;
+    padding-bottom: 5px;
+
+    box-shadow: 0px 0px 1px rgb(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-direction: column;
+}
+
+#aboutUs-container {
+    font-size: 25px;
+    font-weight: 500;
+    padding: 10px 10px;
+    margin-bottom: 5px;
+
+    border-bottom: 1px solid grey;
+}
+
+.aboutUs-text {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 13px;
+    margin-right: 5px;
+    line-height: 20px;
+}
+
+/* ====== SHOE CONTAINER ====== */
+.container-theme {
+    background-color: white;
+    margin: 5px;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-size: 25px;
+    font-weight: 700;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.8);
+    
+}
+
+.overall-shoe-container {
+    background-color: white;
+    border-radius: 5px;
+    padding: 30px 1px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+
+    /* box-shadow: 0px 0px 1px rgb(0, 0, 0, 0.0); */
+}
+
+.shoe-containers {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.8);
+}
+
+.shoe-containers a {
+    text-decoration: none;
+    color: black;
+}
+
+.shoe-containers:hover {
+    box-shadow: 0px 0px 5px rgb(0, 0, 0, 1);
+    /* border: 1px solid black; */
+}
+
+.shoe-containers a:hover {
+    text-decoration: underline;   
+}
+
+.shoe-image {
+    height: 200px;
+    border-bottom: 1px solid rgb(184, 183, 183);
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    cursor: pointer;
+}
+
+.shoe-prices {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.small-texts {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.welcome-deal-icon {
+    height: 13px;
+}
+
+.overall-shoe-stats {
+    padding-left: 5px;
+    padding-bottom: 4px;
+}
+
+.shoe-stat {
+    font-size: 11px;
+    display: inline-block;
+}
+
+.shoe-rating {
+    display: flex;
+    align-items: center;
+}
+
+.shoe-stat img {
+    height: 11px;
+    margin-right: 2px;
+}
+
+.shoe-stat p {
+    font-size: 11px;
+    display: inline-block;
+}
+
+.shoe-name {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* ====== TESTIMONIAL SECTION ====== */
+.testimonials {
+    font-weight: 700;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 35px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.clients-container {
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+
+.clients {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;
+    background-color: white;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    padding: 5px 5px;
+    width: 400px;
+    display: flex;
+
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px rgb(0, 0, 0, 0.6);
+    transition: box-shadow 0.2s;
+}
+
+.clients:hover {
+    box-shadow: 5px 5px 5px rgb(0, 0, 0, 0.8);
+}
+
+.clients-images {
+    height: 55px;
+    border-radius: 28px;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.clients p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    margin-top: 10px;
+
+}
